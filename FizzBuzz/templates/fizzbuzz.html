@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FizzBuzz Page</title>
+</head>
+<body>
+    <ul>
+    {% for number in range(1,101) %}
+        {% if number%3 == 0 and number%5 == 0 %}
+            <li>FizzBuzz</li>
+        {% elif number%3 == 0 %}
+            <li>Fizz</li>
+        {% elif number%5 == 0 %}
+            <li>Buzz</li>
+        {% else %}
+            <li>{{number}}</li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</body>
+</html>
