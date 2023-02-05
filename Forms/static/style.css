@@ -1,0 +1,18 @@
+h2{
+    text-align: center;
+}
+
+input{
+    width:100%;
+    border-width: 2px;
+}
+
+input[type="submit"]{
+    text-align: center;
+    border-radius: 20px;
+    width:20%;
+} 
+
+div{
+    margin: auto;
+}
